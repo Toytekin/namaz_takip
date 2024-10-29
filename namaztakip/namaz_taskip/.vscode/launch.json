@@ -1,0 +1,25 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "namaz_taskip",
+                "request": "launch",
+                "type": "dart",
+                "program": "lib/main.dart" // Ana dosyanın yolunu burada belirtin.
+            },
+            {
+                "name": "namaz_taskip (profile mode)",
+                "request": "launch",
+                "type": "dart",
+                "flutterMode": "profile",
+                "program": "lib/main.dart" // Ana dosyanın yolunu burada belirtin.
+            },
+            {
+                "name": "namaz_taskip (release mode)",
+                "request": "launch",
+                "type": "dart",
+                "flutterMode": "release",
+                "program": "lib/main.dart" // Ana dosyanın yolunu burada belirtin.
+            }
+        ]
+    }
